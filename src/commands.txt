@@ -1,0 +1,58 @@
+Essential Modes
+
+NORMAL MODE => Esc
+
+INSERT MODE => i: Insert, a: Append, cc/C: change
+
+VISUAL MODE => v, V
+
+COMMAND MODE => :, /
+
+
+Basic movements
+
+k => move up one line
+j => move down one line
+h => move left one character
+l => move right one character
+w => move by one word forward
+b => move by one word back
+e => move to the end of the word
+0 => move to beginning of the line
+$ => move to the end of the line
+
+With numbers
+
+3j => move three lines down
+3k =>  move three lines up
+3w => move three words forward
+5$ => move to the end of the fifth line down
+6+ => move six lines down to start of line
+
+Vim as Language
+
+Verbs(operators), nouns, adverbs
+
+Verbs => d: delete, c: change, y: yank/copy, p: paste v: visual
+
+Nouns => w: word s: sentence, b: block, t: tag, p: paragraph
+
+Adverbs => i: inside, a: around, t: until something, f: find something, num: number
+
+Building commands
+
+dw => delete word
+d3w => delete three words
+dt. => delete till dot
+c2w => change two words
+ci) => change inside parentheses
+ct} => change till closing curly bracket
+ca( => change around opening parentheses
+y5w => copy five word
+yip => copy inside paragraph
+
+. - dot command
+gi - go to last insert place
+gv - go to last visual selection
+* - search for the current word
+
