@@ -42,9 +42,12 @@ y5w => copy five words
 yip => copy inside paragraph
 
 . - dot command
+5. - repeat the last change 5 times
 gi - go to last insert place
 gv - go to last visual selection
 * - search for the current word
+
+// IdeaVim is a KING
 
 PLUGINS FOR IDEAVIM
 

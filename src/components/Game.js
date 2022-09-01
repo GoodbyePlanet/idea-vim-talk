@@ -64,7 +64,7 @@ class Game extends React.Component {
     const squares = current.squares.slice();
     const columns = COLUMNS;
 
-    /**
+		/**
      * Calculate location of square when clicked
      */
     const col = Math.floor(i % columns) + 1;
@@ -134,6 +134,7 @@ class Game extends React.Component {
       }
     }
     let tempSq = squares.filter(item => item === null);
+
     if (tempSq.length === 0) {
       result = { status: "draw", win: {} };
       return result;
@@ -151,12 +152,8 @@ class Game extends React.Component {
       const desc = index ? "Go to move #" + index : "Go to game start";
 
       let active = "";
-      if (move.active) {
-        active = "active";
-      } else {
-        active = "normal";
-      }
-      return (
+			
+			return (
         <li key={index}>
           <button
             className={active}
