@@ -152,7 +152,7 @@ class Game extends React.Component {
       const desc = index ? "Go to move #" + index : "Go to game start";
 
       let active = "";
-			
+
 			return (
         <li key={index}>
           <button
