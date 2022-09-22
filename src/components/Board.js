@@ -8,7 +8,7 @@ class Board extends React.Component {
       if (this.props.winningSquares.indexOf(i) > -1) {
         return "square winningSquares";
       } else {
-        return "square";
+        return 'square';
       }
     } else {
       return "square";

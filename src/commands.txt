@@ -5,6 +5,13 @@ INSERT MODE => i: Insert, a: Append, cc/C: change
 VISUAL MODE => v, V
 COMMAND MODE => :, /
 
+Basics
+
+:w => write changes
+:wq => write changes and quit
+:q => quit vim
+:q! => quit vim without saving
+
 BASIC MOVEMENTS
 
 k => move up one line
